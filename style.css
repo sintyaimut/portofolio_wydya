@@ -1,0 +1,88 @@
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #ffeaf4;
+  color: #5a4b60;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #ffb6c1;
+  text-align: center;
+  padding: 20px;
+  color: white;
+}
+
+nav a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a.active, nav a:hover {
+  text-decoration: underline;
+}
+
+.hero {
+  text-align: center;
+  padding: 60px 20px;
+  background: linear-gradient(to bottom, #ffd9e6, #fff0f6);
+}
+
+.profile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.profile-photo {
+  width: 180px;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(255,182,193,0.5);
+}
+
+.profile-info {
+  max-width: 400px;
+  background-color: #ffe3ec;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.gallery-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 25px;
+  padding: 20px;
+}
+
+.gallery-item {
+  background-color: #ffe6ef;
+  padding: 15px;
+  border-radius: 12px;
+  width: 220px;
+  box-shadow: 0 4px 6px rgba(255,192,203,0.5);
+  text-align: center;
+}
+
+.gallery-item img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.contact {
+  text-align: center;
+  padding: 50px;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #ffb6c1;
+  color: white;
+}
+
